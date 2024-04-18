@@ -1,0 +1,105 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+
+    body,
+    html {
+      margin: 0;
+      font-family: Times New Roman;
+    }
+
+
+    .box li {
+        display: block; 
+        outline-color: transparent;
+        line-height: 3;
+        color: black;
+        justify-content: center;
+        a{
+        text-decoration: none;
+        width: 80%; 
+        padding: 10px; 
+        margin: 10px 0; 
+        border: 2px solid #a66; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        }
+        a:link,
+        a:visited,
+        a:focus {
+          background: #FFFFFF;
+          color: #a66;
+        }
+
+        a:hover {
+          background: #D2B48C ;
+        }
+
+        a:active {
+          background: darkred;
+          color: white;
+        }
+    }
+
+    ul {
+        list-style-type: square;
+    }
+
+     ul ::marker {
+    color: #D2B48C; 
+    }
+
+    a{
+    color: darkred;
+    }
+    a:hover{
+    color: #D2B48C;
+    }
+
+   a[href^="http"] {
+  background: url("external-link-52.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
